@@ -1,0 +1,1 @@
+[{"id":"87ab5e1d.63fd4","type":"tab","label":"Flow 3","disabled":false,"info":""},{"id":"b3575317.6017f","type":"rpi-sensehatsim in","z":"87ab5e1d.63fd4","name":"","motion":false,"env":true,"stick":true,"x":420,"y":260,"wires":[["31b7a481.0becfc"]]},{"id":"31b7a481.0becfc","type":"rpi-sensehatsim out","z":"87ab5e1d.63fd4","name":"","x":720,"y":260,"wires":[]}]

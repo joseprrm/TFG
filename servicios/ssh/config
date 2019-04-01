@@ -1,0 +1,11 @@
+Host raspi
+    HostName 192.168.1.40
+    User admin
+    Port 28374
+    IdentityFile /home/jrrm/.ssh/newKey
+
+Host raspiIdRsa
+    HostName 192.168.1.40
+    User admin
+    Port 28374
+    IdentityFile /home/jrrm/.ssh/id_rsa
