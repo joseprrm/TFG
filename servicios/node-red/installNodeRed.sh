@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yes | pacman -S fakeroot npm gcc
+yes | pacman -S fakeroot npm gcc git
 su admin<<EOF
 cd /tmp
 git clone https://aur.archlinux.org/python-raspberry-gpio.git

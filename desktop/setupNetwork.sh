@@ -4,7 +4,7 @@
 set -u
 set -e
 
-source global.conf
+source ./global.conf
 
 # borramos cualquier direccion que haya en el interfaz ethernet
 ip address flush dev $ethernet_dev
